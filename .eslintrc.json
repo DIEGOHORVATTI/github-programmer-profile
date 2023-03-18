@@ -1,0 +1,54 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "globals": {
+    "VoidFunction": "readonly",
+    "Dict": "readonly",
+    "JSX": "readonly",
+    "React": "readonly"
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "standard",
+    "plugin:@next/next/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier",
+    "no-loops"
+  ],
+  "rules": {
+    "import/no-webpack-loader-syntax": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-img-element": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/no-children-prop": "off",
+    "no-use-before-define": "off",
+    "react/display-name": "off",
+    "react/prop-types": "off",
+    "camelcase": "off",
+    "prettier/prettier": 2,
+    "no-loops/no-loops": 2,
+    "no-undef": "warn",
+    "no-console": 1
+  }
+}
