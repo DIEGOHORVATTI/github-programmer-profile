@@ -43,14 +43,8 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <meta
-            name="description"
-            content="Diego Horvatti"
-          />
-          <meta
-            name="keywords"
-            content="Diego, Horvatti, Diego Horvatti"
-          />
+          <meta name="description" content="Diego Horvatti" />
+          <meta name="keywords" content="Diego, Horvatti, Diego Horvatti" />
         </Head>
 
         <body>
